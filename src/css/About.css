@@ -1,0 +1,633 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.photo {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.title {
+    font-family: 'Aleo', serif;
+    margin-top: -13px;
+}
+
+.photo {
+    border-radius: 50%;
+    margin-top: -80px;
+    /* right: 20px; */
+    transition: box-shadow 250ms;
+}
+
+.photo:hover {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+
+.dev {
+    float:right;
+    margin-right: -11px;
+    font-family: 'Aleo', serif;
+    color: red;
+}
+
+.dev::after {
+    content: '_';
+    animation: cursor 1.1s infinite step-start;
+}
+
+@keyframes cursor {
+  50% {
+    opacity: 0; 
+  }
+
+}
+
+.info-div {
+    top: 30px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.about-info {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.name {
+    right: 17.8rem;
+    width:200px;
+}
+
+.bar1 {
+    right: 5.5rem;
+    width:200px;
+}
+
+.majors {
+    left: 0.5rem;
+    width:220px;
+}
+
+.bar2 {
+    left: 17rem;
+    width:200px;
+}
+
+.college {
+    left: 20.5rem;
+    width:200px;
+}
+
+.circles {
+    position: relative;
+    right: -43em;
+    width: 45%;
+    height: 100%;
+}
+
+.circles2 {
+    position: relative;
+    right: 15em;
+    width: 45%;
+    height: 100%;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    
+}
+
+.circles2 li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+.circles2 li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles2 li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles2 li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles2 li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles2 li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles2 li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles2 li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles2 li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles2 li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+.circles2 li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+
+.socials {
+    top: 130px;
+    right: 20px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.email {
+    right: 13.7rem;
+    bottom:-20px;
+    width:24px;
+    transition: box-shadow 250ms;
+}
+
+.email:hover {
+    box-shadow: 0 0 6px 7px rgba(255, 255, 255, 0.2);
+}
+
+.bar1-s {
+    left: 3rem;
+    width:50px;
+    font-size: 10px;
+}
+
+.github {
+    left: 5rem;
+    width:23.25px;
+    height:21.2px;
+    transition: box-shadow 250ms;
+    bottom:-17px;
+}
+
+.github:hover {
+    box-shadow: 0 0 6px 7px rgba(255, 255, 255, 0.2);
+}
+
+.bar2-s {
+    left: 8rem;
+    width:200px;
+    font-size: 10px;
+}
+
+.linkedin {
+    left: 10rem;
+    width:21px;
+    height:21px;
+    transition: box-shadow 250ms;
+    bottom:-17px;
+}
+
+.linkedin:hover {
+    box-shadow: 0 0 6px 7px rgba(255, 255, 255, 0.2);
+}
+
+.bar3-s {
+    left: 13rem;
+    width:200px;
+    font-size: 10px;
+}
+
+.facebook {
+    left: 15rem;
+    width:23.25px;
+    height:23.11px;
+    transition: box-shadow 250ms;
+    bottom:-20px;
+}
+
+.facebook:hover {
+    box-shadow: 0 0 6px 7px rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 640px) {
+    .dev {
+        top: 1.8rem;
+        left: 6.6rem;
+        position: relative;
+        z-index: 9;
+    }
+
+    .info-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 10px;
+        /* width: 50%; */
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    
+    .about-info {
+        font-size: 13px;
+    }
+
+    .name {
+        right: -0.5rem;
+        top: -1rem;
+        width:130px;
+    }
+    
+    .bar1 {
+        display: none;
+    }
+    
+    .majors {
+        left: 1rem;
+        width: 200px;
+        top: 1rem;
+    }
+    
+    .bar2 {
+        display: none;
+    }
+    
+    .college {
+        left: 2.8rem;
+        width: 120px;
+        top: 3rem;
+    }
+
+    .socials {
+        top: 130px;
+        right: 50px;
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    
+    .email {
+        right: 9rem;
+        bottom:-20px;
+        width:24px;
+        transition: box-shadow 250ms;
+    }
+    
+    .email:hover {
+        box-shadow: 0 0 6px 7px rgba(255, 255, 255, 0.2);
+    }
+    
+    .bar1-s {
+        left: 3rem;
+        width:50px;
+        font-size: 10px;
+    }
+    
+    .github {
+        left: 5rem;
+        width:23.25px;
+        height:21.2px;
+        transition: box-shadow 250ms;
+        bottom:-17px;
+    }
+    
+    .github:hover {
+        box-shadow: 0 0 6px 7px rgba(255, 255, 255, 0.2);
+    }
+    
+    .bar2-s {
+        left: 8rem;
+        width:50px;
+        font-size: 10px;
+    }
+    
+    .linkedin {
+        left: 10rem;
+        width:21px;
+        height:21px;
+        transition: box-shadow 250ms;
+        bottom:-17px;
+    }
+    
+    .linkedin:hover {
+        box-shadow: 0 0 6px 7px rgba(255, 255, 255, 0.2);
+    }
+    
+    .bar3-s {
+        left: 13rem;
+        width:50px;
+        font-size: 10px;
+    }
+    
+    .facebook {
+        left: 15rem;
+        width:23.25px;
+        height:23.11px;
+        transition: box-shadow 250ms;
+        bottom:-20px;
+    }
+    
+    .facebook:hover {
+        box-shadow: 0 0 6px 7px rgba(255, 255, 255, 0.2);
+    }
+}
+
+@media (max-width: 1279px) {
+    .circles {
+        display: none;
+    }
+    
+    .circles2 {
+        display: none;
+    }
+    
+    .circles li{
+        display: none;
+        
+    }
+    
+    .circles2 li{
+        display: none;
+        
+    }
+}
+
+
+@media (min-width: 640px) {
+    .dev {
+        top: 2.1rem;
+        left: 8.3rem;
+        position: relative;
+        z-index: 9;
+    }
+    .info-div {
+        top: 30px;
+        right: 33px;
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    
+    .about-info {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+    }
+    
+    .name {
+        right: 8rem;
+        width:200px;
+    }
+    
+    .bar1 {
+        right: 7.5rem;
+        width: 50px;
+    }
+    
+    .majors {
+        left: 0.5rem;
+        width:220px;
+    }
+    
+    .bar2 {
+        left: 15rem;
+        width:50px;
+    }
+    
+    .college {
+        left: 16.5rem;
+        width: 130px;
+    }
+    .socials {
+        top: 130px;
+        right: 51px;
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    
+    .email {
+        right: 8.7rem;
+        bottom:-20px;
+        width:24px;
+        transition: box-shadow 250ms;
+    }
+    
+    .email:hover {
+        box-shadow: 0 0 6px 7px rgba(255, 255, 255, 0.2);
+    }
+    
+    .bar1-s {
+        left: 3rem;
+        width:50px;
+        font-size: 10px;
+    }
+    
+    .github {
+        left: 5rem;
+        width:23.25px;
+        height:21.2px;
+        transition: box-shadow 250ms;
+        bottom:-17px;
+    }
+    
+    .github:hover {
+        box-shadow: 0 0 6px 7px rgba(255, 255, 255, 0.2);
+    }
+    
+    .bar2-s {
+        left: 8rem;
+        width:200px;
+        font-size: 10px;
+    }
+    
+    .linkedin {
+        left: 10rem;
+        width:21px;
+        height:21px;
+        transition: box-shadow 250ms;
+        bottom:-17px;
+    }
+    
+    .linkedin:hover {
+        box-shadow: 0 0 6px 7px rgba(255, 255, 255, 0.2);
+    }
+    
+    .bar3-s {
+        left: 13rem;
+        width:200px;
+        font-size: 10px;
+    }
+    
+    .facebook {
+        left: 15rem;
+        width:23.25px;
+        height:23.11px;
+        transition: box-shadow 250ms;
+        bottom:-20px;
+    }
+    
+    .facebook:hover {
+        box-shadow: 0 0 6px 7px rgba(255, 255, 255, 0.2);
+    }
+}
