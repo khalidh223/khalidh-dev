@@ -1,3 +1,22 @@
+# khalidh.dev | Personal Website & Blog
+<img src="https://user-images.githubusercontent.com/53101332/159212228-090e8bec-e727-4faf-a970-ab67f4c210a2.png" height="200px" />
+
+## To-Do
+
+**Personal Website:**
+
+☑ About component
+
+🟦 Navbar component
+
+🟦 Experience component
+
+🟦 Projects component
+
+**Blog:**
+
+Coming soon...
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
