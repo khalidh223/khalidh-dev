@@ -35,11 +35,11 @@ export default class About extends React.Component {
               <div className="about-info college absolute">Carleton College</div>
             </div>
             <div className="socials flex flex-row justify-between flex-wrap relative z-2">
-              <div className="email absolute"><a title="Send an Email" href="mailto:khalidhussain4656@gmail.com"><FontAwesomeIcon icon={faEnvelope} size="xl" /></a></div>
+              <div className="email absolute"><a title="Send an Email" href="mailto:hussaink@carleton.edu"><FontAwesomeIcon icon={faEnvelope} size="xl" /></a></div>
               <div className="bar1-s absolute">|</div>
               <div className="github absolute"><a title="GitHub Profile" href="https://github.com/khalidh223" ><FontAwesomeIcon icon={faGithub} size="xl" /></a></div>
               <div className="bar2-s absolute">|</div>
-              <div className="linkedin absolute"><a title="LinkedIn Profile" href="https://www.linkedin.com/in/khalid-hussain-029970176/" ><FontAwesomeIcon icon={faLinkedin} size="xl"/></a></div>
+              <div className="linkedin absolute"><a title="LinkedIn Profile" href="https://www.linkedin.com/in/khalid--hussain/" ><FontAwesomeIcon icon={faLinkedin} size="xl"/></a></div>
               <div className="bar3-s absolute">|</div>
               <div className="facebook absolute"><a title="Facebook Profile" href="https://www.facebook.com/khalid.hussain.90663/" ><FontAwesomeIcon icon={faFacebook} size="xl"/></a></div>
             </div>
